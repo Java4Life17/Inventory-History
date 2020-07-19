@@ -1,0 +1,115 @@
+#The name of the menu that shows up whenever you execute the command /invHistory all
+Main_Menu_Name: "&0Death Inventories History"
+#The name of the menu for a specific player.
+#PlaceHolders: %player%
+Player_Menu_Name: "&0Deaths of %player%"
+#The message a player will see when he has no permission to execute a command.
+No_Perm: "&cInsufficient Permissions"
+#The texts the item "Delete All' will contain inside the player category
+DeleteAllButton:
+  - "             &c&lDELETE ALL"
+  - " "
+  - " "
+  - "&7     Click me to delete every"
+  - "&7 inventory history of this player "
+  - " "
+  - " "
+#The texts the item "Back to main menu" will contain;
+BackToMainMenu:
+  - "           &d&lBACK TO MAIN MENU"
+  - " "
+  - " "
+  - "&a  Click me to go back to the categories  "
+  - "&a                     menu"
+  - " "
+  - " "
+#The text on the item to delete a certain inventory of a player
+DeleteInventory:
+  - "           &c&l DELETE INVENTORY"
+  - " "
+  - "&7       Click me to delete this certain     "
+  - "&7   inventory from the player's database   "
+#The text on the item to give certain items to the user
+GiveCertainItems:
+  - "             &6&lGIVE CERTAIN ITEMS"
+  - " "
+  - " "
+  - "&7       Use this options to choose which"
+  - "&7   items you want to give back to the owner   "
+  - " "
+  - " "
+#The text on the item to let the owner choose the items he wants back
+LetOwnerChoose:
+  - "                 &5&lLET OWNER CHOOSE"
+  - " "
+  - " "
+  - "&7     Click me to open a copy of this inventory     "
+  - "&7  to the owner and allow him to choose which items   "
+  - "&7                  he wants to keep               "
+  - " "
+  - " "
+  - "&c  If the user does not take every item, the inventory  "
+  - "&c         will not be deleted, but updated instead"
+  - " "
+  - " "
+#The text on the item to open a demo copy of the inventory to the user
+OpenDemoCopy:
+  - "                  &e&lDISPLAY A COPY OF INVENTORY           "
+  - " "
+  - " "
+  - "&7           Click me to display a copy of this inventory to     "
+  - "&7  the inventory owner. He will not be able to take any items out  "
+  - " "
+  - " "
+#The text on the item to teleport to the location where the player died.
+GotoLocation:
+  - "         &b&lTELEPORT TO DEATH LOCATION         "
+  - " "
+  - " "
+  - "&7  Click me to teleport to the location where the  "
+  - "&7                player died"
+  - " "
+  - " "
+#The text on the item to give back everything back the user. The receiver must have his inventory empty
+#and with no armor on!
+GiveItemsBack:
+  - "              &a&lGIVE EVERYTHING BACK           "
+  - " "
+  - "&7         Click me to give everything back     "
+  - "&7              to the inventory owner          "
+  - " "
+  - " "
+  - "&c(receiver must have his inventory completely empty!)"
+#The message that will be sent to the user when he deletes all the deaths history.
+DeletedAllMessage: "&aYou successfully deleted every death history for that player!"
+#The message you will receive once you delete a certain inventory.
+DeletedSingleInv: "&aYou successfully deleted that inventory!"
+#The message a user will receive if he is already in a teleport delay.
+AlreadyTeleporting: "&cYou are already teleporting somewhere, please wait for the delay to finish, or type &4cancel &cto cancel."
+#The message a user will receive when he gets teleported into a death location.
+Teleported: "&e&lYou have arrived at the crime seen!"
+#Message a player will receive if they are trying to delete a already deleted section.
+FailedToDelete: "&cIt seems like this section no longer exists in the database. Maybe someone already deleted it?"
+#Message a player will receive if they cancel the teleport event
+TeleportCanceled: "&aThe teleporting event has been cancelled!"
+#Message a player will receive if the requested player is offline.
+PlayerOffline: "&cThat player seems to be offline. Try again later!"
+#Message a player will receive when the items receiver has the inventory full.
+InvFull: "&cThat player has their inventory full. Ask him to drop make some space."
+#Message a player will receieve when he will have a display inventory opened for him. Delay of 5 seconds
+#Placeholders: %seconds%
+DisplayWarning: "&2A display of an inventory you have lost will be opened for you in &c%seconds% seconds."
+#Message a player will see when he opened a inventory copy to a certain user.
+#Placeholders: %player% - the receiver.
+DisplayDone: "&aSuccesfully opened a copy of that inventory to &c%player%."
+#The message a player will receive when he tries to give a full inventory to a player who doesn't have an empty inventory.
+#This is important to avoid bugs of loosing more items.
+NotEmpty: "&cIt seems like that player's inventory is not empty. Make sure he has no items in hiv inventory or armor on
+and a item on his off hand."
+#The message that will be sent to a player who just returned an inventory to a user.
+#Placeholders: %key% - the exact key of the inventory %receiver% the name of the receiver
+ReturnedItems: "&aYou have successfully returned the inventory %key% to %receiver%."
+#The message a receiver will get when he tried to access an inventory of a player that does not exist.
+NoPlayerExists: "&cThat player does not exist!"
+#Message a player will receive when he reloads the plugin.
+ReloadComplete: "&aSuccessfully reloaded invHistory plugin."

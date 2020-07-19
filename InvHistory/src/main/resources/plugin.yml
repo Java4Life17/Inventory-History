@@ -1,0 +1,13 @@
+name: InvHistory
+version: ${project.version}
+main: invhistory.invhistory.InvHistory
+api-version: 1.13
+authors: [ProxyGaming14, Nvme_SSD, proxytimeout]
+description: Plugin that allows server admins to see Inventory History.
+commands:
+  invhistory:
+    description: Open up the main deaths inventory.
+permissions:
+  invhistory.generalDeaths.admin:
+    description: Allows user to run the /invhistory command.
+    default: op

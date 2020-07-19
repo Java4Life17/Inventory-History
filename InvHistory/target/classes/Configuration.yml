@@ -1,0 +1,12 @@
+#Language in which the plugin will communicate with the users.
+#Lenguage que el servidor usa para comunicarse con el usuario.
+# EN_US ES_MX
+Local: EN_US
+#The minimum amount of items the player has to have so the plugin can save the inventory when
+#that player dies.
+#La cantidad minima de items que un jugador tiene que tener para que el server guarde su inventario
+#cuando el jugador muere
+MinItems: 5
+#The time in seconds that it will take to teleport to a certain location
+#El tiempo en segundos que tomara en teletransportarse a la ubicacion.
+Delay: 5

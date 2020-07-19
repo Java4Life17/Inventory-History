@@ -1,0 +1,108 @@
+#El nombre del menú que aparece cada vez que ejecuta el comando /invHistory all
+Main_Menu_Name: "&0Historia de los inventarios perdidos"
+#El nombre del menu de un jugador en especifico.
+#PlaceHolders: %player%
+Player_Menu_Name: "&0Muertes de %player%"
+#El mensaje que un jugador vera cuando no tenga permisos para ejecutar un comando.
+No_Perm: "&cPermisos Insuficientes."
+#El texto que el boton de "Delete All" contiene dentro de la categoria de un jugador.
+DeleteAllButton:
+  - "           &c&lBORRAR TODO       "
+  - " "
+  - " "
+  - "&7    Hazme clic para borrar todos"
+  - "&7  los inventarios guardados en el  "
+  - "&7     historial de este jugador     "
+  - " "
+  - " "
+#El texto en el boton de regresar al menu principal.
+BackToMainMenu:
+  - "               &d&lMenu Principal            "
+  - " "
+  - " "
+  - "&a   Dame click para regresar al menu principal   "
+  - " "
+  - " "
+#El texto en el boton de borrar el inventario en el que estas.
+DeleteInventory:
+  - "          &c&lBORRAR INVENTARIO"
+  - " "
+  - "&7       Dame clic para borrar este       "
+  - "&7      inventario de la base de datos!"
+#El texto en el boton de regresar ciertos items al usuario.
+GiveCertainItems:
+  - "            &6&lREGRESAR CIERTOS OBJETOS"
+  - " "
+  - "&7           Dame click para regresar ciertos           "
+  - "&7  objetos al jugador propietario de este inventario."
+#El texto en el boton para dejar al usuario tomar los objetos que el quiera.
+LetOwnerChoose:
+  - "           &5&lDEJA QUE EL PROPIETARIO ELIJA           "
+  - " "
+  - "&7       Dame click para dejar al usuario elejir"
+  - "&7     cuales objetos se quiere quedar y cuales no"
+  - " "
+  - " "
+  - "&c  Si el usuario no toma todos los items, el inventario no  "
+  - "&csera borrado, solo se actualizaran los objetos dentro de el"
+  - " "
+  - " "
+#El texto en el boton para abrir una demostracion del inventario al propietario.
+OpenDemoCopy:
+  - "              &e&lABRIR DEMO DEL INVENTARIO              "
+  - " "
+  - "&7         Dame clic para abrir una copia de este         "
+  - "&7  inventario al propietario. El no podra manejar los objetos.  "
+  - " "
+  - " "
+#El texto en el boton de ir al lugar donde el jugador murio.
+GotoLocation:
+  - "            &b&lTP A LUGAR DE MUERTE         "
+  - " "
+  - "&7    Dame clic para ir a la ubicacion donde  "
+  - "&7             el jugador murio."
+  - " "
+  - " "
+#El texto en el boton para regresar todos los objetos. El que recibira los objetos tiene que tener el inventario
+#completamente vacio y sin armadura puesta!
+GiveItemsBack:
+  - "                  &a&lREGRESAR TODO                "
+  - " "
+  - "&7           Dame click para regresar los         "
+  - "&7              objetos al propietario.           "
+  - " "
+  - " "
+  - "&c(El propietario tiene que tener su inventario vacio)"
+#El mensaje que sera enviado una vez que borres el historial de muertes completo!
+DeletedAllMessage: "&aCon exito se borro todo el historial de muertes de ese jugador!"
+#El mensaje que recibiras al borrar un inventario.
+DeletedSingleInv: "&aCon exito se borro ese inventario!"
+#El mensaje que un usuario recibira cuando intente teletranportarse mientras esta en un delay.
+AlreadyTeleporting: "&cYa estas esperando para teletranportarte. Si deseas cancelar, escribe &4cancel &cpara cancelar."
+#El mensaje que el usuario recibira cuando se teletransporte al lugar de la muerte.
+Teleported: "&e&lHaz llegado a la escena del crimen!"
+#Mensaje que el jugador recibira cuando intente borrar una seccion que ya no existe.
+FailedToDelete: "&cLa seccion que intentas borrar ya no esta en la base de datos. Talvez ya ah sido borrada?"
+#Mensaje que el jugador recibira cuando cancelen el evento de teletransportarse.
+TeleportCanceled: "&aEl evento de teletransportacion ah sido cancelado!"
+#Mensaje que el jugador recibira cuando el jugador que pidieron no esta conectado.
+PlayerOffline: "&cEse jugador no esta conectado. Intenta mas tarde!"
+#El mensaje que un jugador recibira cuando intente dar objetos a un jugador con un inventario lleno.
+InvFull: "&cEse jugador tiene el inventario lleno. Pidele que tire algunas cosas."
+#Mensaje que un jugador recibira cuando una copia de un inventario perdido se abrira como display para el.
+#Placeholders: %seconds%
+DisplayWarning: "&2Una copia de un inventario que as perdido se abrira en &c%seconds% segundos."
+#El mensaje que un jugador vera cuando abrio una copia de un inventario para otro jugador.
+#Placeholders: %player% - el que recibira el inventario.
+DisplayDone: "&aCon extio se le abrio una copia de este inventario a &c%player%."
+#El mensaje que un jugador vera cuando intente regresar el inventario a un usuario con un inventario no vacio.
+#Esto es importante para evitar que el jugador no pierda items importantes para el.
+NotEmpty: "&cEse jugador no tiene el inventario vacio. Asegurate que este vacio y que no tenga armadura puesta, o un objeto
+en su mano izquierda."
+#El mensaje que un usuario recibira al regresar el inventario a otro usuario.
+#Placeholders: %key% - el nombre del inventario guardado %receiver% - nombre del receptor.
+ReturnedItems: "&aCon exito le regresastes el inventario %key% a %receiver%."
+#El mensaje que un jugador recibira cuando intente abrir el menu de alguien que no existe
+NoPlayerExists: "&cEse jugador no esta registrado en nuestra base de datos."
+#El mensajeque un jugador recibira cuando recarge el plugin.
+ReloadComplete: "&aCon exito se recargo el plugin."
